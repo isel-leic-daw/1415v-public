@@ -1,0 +1,395 @@
+<DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title>DAW - HTTP</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=792, user-scalable=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<link rel="stylesheet" href="http://roadmap.iojs.org/shower/themes/ribbon/styles/screen.css">
+</head>
+<body class="list">
+	<style>
+	h2 {
+		font-size:120%;
+	}
+	li {
+		margin-left:30px;
+	}
+	</style>
+	<header class="caption">
+		<h1>DAW - Desenvolvimento de Aplicações Web</h1>
+		<p><strong>HTTP</strong>: 10/Março/2015</p>
+	</header>
+
+	<section class="slide cover" id="Cover"><div>
+		<h2>HTTP</h2>
+		<p><em>This protocol is at the center of what drives websites and Web APIs.</em></p>
+		<style>
+			#Cover h2 {
+				margin:30px 0 0;
+				color:#FFF;
+				text-align:center;
+				font-size:70px;
+				}
+			#Cover p {
+				margin:10px 0 0;
+				text-align:center;
+				color:#FFF;
+				font-style:italic;
+				font-size:20px;
+				}
+				#Cover p a {
+					color:#FFF;
+					}
+		</style>
+	</div></section>
+
+	<section class="slide cover"><div>
+		<img src="http://orm-chimera-prod.s3.amazonaws.com/1234000001708/images/dewa_0101.png" alt="" style="margin-left:5%; margin-top:2%; height:90%" >
+	</div></section>
+
+	<section class="slide"><div>
+		<h2>Arquitectura da Web</h2>
+		<ul>
+			<li>Recurso e URI (<i>identification</i>)</li>
+			<li>Representação e media-type (<i>formats</i>)</li>
+			<li>HTTP (<i>interaction</i>)</li>
+		</ul>
+	</div></section>
+
+	<section class="slide"><div>
+		<img src="http://orm-chimera-prod.s3.amazonaws.com/1234000001708/images/dewa_0102.png" style="height:90%">
+	</div></section>
+
+	<section class="slide"><div>
+		<h2>Media-Type</h2>
+		<p>Registo <a href="http://www.iana.org/assignments/media-types/media-types.xhtml">IANA</a> contém lista de media-types <em>standard</em></p>
+		<ul>
+			<li>application/json</li>
+			<li>application/xml</li>
+			<li>text/vcard</li>
+			<li>text/html</li>
+			<li>application/hal+json</li>
+		</ul>
+	</div></section>
+
+	<section class="slide"><div>
+		<h2>Media-Type</h2>
+		<p>Formato geral</p>
+		<pre style="font-size:smaller">
+			<code>top-level type name / [ tree. ] subtype name [ +suffix ] [ ; parameters ]</code>
+		</pre>
+		<p>Exemplo: <code>application/vnd.github.v3+json</code></p>
+	</div></section>
+
+	<section class="slide"><div>
+		<h2>Modelo de Interação</h2>
+		<ul>
+			<li>Pedido / Reposta</li>
+			<li><em>Stateless</em></li>
+		</ul>
+	</div></section>
+
+	<section class="slide"><div>
+		<h2>Pedido</h2>
+		<img src="http://orm-chimera-prod.s3.amazonaws.com/1234000001708/images/dewa_0104.png" style="height:70%">
+	</div></section>
+
+	<section class="slide"><div>
+		<h2>Resposta</h2>
+		<img src="http://orm-chimera-prod.s3.amazonaws.com/1234000001708/images/dewa_0105.png" style="height:80%">
+	</div></section>
+
+	<section class="slide"><div>
+		<h2>Intermediários HTTP</h2>
+		<img src="http://orm-chimera-prod.s3.amazonaws.com/1234000001708/images/dewa_0106.png" style="height:40%">
+		<ul>
+			<li>proxy</li>
+			<li>gateway</li>
+			<li>tunnel</li>
+		</ul>
+	</div></section>
+
+	<section class="slide"><div>
+		<h2>Métodos HTTP</h2>
+		<p>Interface standard de acesso a recursos</p>
+		<ul>
+			<li><code>GET</code></li>
+			<li><code>HEAD</code></li>
+			<li><code>POST</code></li>
+			<li><code>PUT</code></li>
+			<li><code>DELETE</code></li>
+			<li><code>OPTIONS</code></li>
+			<li><code>PATCH</code> e <code>TRACE</code></li>
+		</ul>
+	</div></section>
+
+	<section class="slide"><div>
+		<h2>Pedidos condicionais</h2>
+		<p>É possível clientes HTTP fazerem pedidos condicionais, usando headers</p>
+		<ul>
+			<li><code>If-Match</code> e <code>If-NoneMatch</code>: baseados num representante da representação</li>
+			<li><code>If-ModifiedSince</code>: baseado no tempo</li>
+		</ul>
+	</div></section>
+
+	<section class="slide"><div>
+		<h2>Propriedades dos métodos HTTP</h2>
+		<p>Os métodos HTTP podem ter as seguintes caracteristicas</p>
+		<ul>
+			<li><strong><em>Safe</em></strong>: Não gera side-effects. Não altera o estado (funcional) do sistema</li>
+			<li><strong><em>Idempotent</em></strong>: Fazer um pedido gera o mesmo efeito que fazer vários</li>
+			<li><strong><em>Cachable</em></strong>: É possível receber uma versão <em>cached</em></li>
+		</ul>
+	</div></section>
+
+	<section class="slide"><div>
+		<h2>Propriedades dos métodos HTTP</h2>
+		<img src="https://cloud.githubusercontent.com/assets/174127/6572645/a0a5fa06-c70b-11e4-8a42-d129e6c8b4de.png" style="height:80%">
+	</div></section>
+
+	<section class="slide"><div>
+		<h2>Headers HTTP</h2>
+		<p>São divididos em quatro tipos</p>
+		<ul>
+			<li><strong>Mensagem</strong> - aplicado ao pedido e reposta</li>
+			<li><strong>Pedido</strong> - aplicados apenas ao pedido</li>
+			<li><strong>Resposta</strong> - aplicados apenas à resposta</li>
+			<li><strong>Representação</strong> - aplicado ao conteúdo</li>
+		</ul>
+
+	</div></section>
+
+	<section class="slide"><div>
+		<h2>Headers <strong>Mensagem</strong></h2>
+
+		<ul>
+			<li>Relação com intermediários: <code>Cache-Control</code>, <code>Pragma</code>, <code>Via</code></li>
+			<li>Relacionados com a mensagem: <code>Transfer-Encoding</code>, <code>Trailer</code></li>
+			<li>Relacionados com o pedido: <code>Connection</code>, <code>Upgrade</code>, <code>Date</code></li>
+		</ul>
+
+	</div></section>
+
+	<section class="slide"><div>
+		<h2>Headers <strong>Pedido</strong></h2>
+
+		<ul>
+			<li>Sobre o pedido: <code>Host</code>, <code>Range</code></li>
+			<li>Sobre authenticação: <code>Authentication</code></li>
+			<li>Para negociação de representações: <code>Accept</code>, <code>Accept-Language</code>, <code>Accept-Encoding</code></li>
+			<li>Para pedidos condicionais: <code>If-Match</code>, <code>If-ModifiedSince</code></li>
+		</ul>
+
+	</div></section>
+
+
+	<section class="slide"><div>
+		<h2>Headers <strong>Resposta</strong></h2>
+
+		<ul>
+			<li>Dados de controlo: <code>Age</code>, <code>Location</code></li>
+			<li>Sobre a representação selecionada: <code>ETag</code>, <code>Last-Modified</code>, <code>Vary</code></li>
+			<li>Sobre autenticação: <code>WWW-Authenticate</code></li>
+		</ul>
+
+	</div></section>
+
+	<section class="slide"><div>
+		<h2>Headers <strong>Representação</strong></h2>
+
+		<ul>
+			<li>Sobre o conteúdo: <code>Content-Type</code>, <code>Content-Length</code>, <code>Content-Encoding</code></li>
+			<li>Sobre o tempo de vida: <code>Expires</code></li>
+		</ul>
+	</div></section>
+
+
+	<section class="slide"><div>
+		<h2>HTTP Status Codes</h2>
+
+		<ul>
+			<li><code>1xx</code>: recebido e o processamento vai continuar</li>
+			<li><code>2xx</code>: aceite, recebido e compreendido</li>
+			<li><code>3xx</code>: é necessário uma acção adicional para terminar o pedido</li>
+			<li><code>4xx</code>: pedido inválido, não é possível continuar</li>
+			<li><code>5xx</code>: o servidor não conseguiu completar o pedido com sucesso</li>
+		</ul>
+	</div></section>
+
+
+	<section class="slide"><div>
+		<h2>Caching</h2>
+
+		<ul>
+			<li>Mecanismo para controlo do tempo de vida de representações</li>
+			<li>Suporta a adição, acesso e remoção de respostas HTTP de uma origem em intermediários</li>
+			<li>Dois conceitos base
+				<ul>
+					<li><em><strong>Expiration</strong></em>: como indicar o tempo de vida da representação</li>
+					<li><em><strong>Vaidation</strong></em>: como validar o tempo de vida</li>
+				</ul>
+			</li>
+		</ul>
+	</div></section>
+
+	<section class="slide"><div>
+		<h2>Caching <small>(exemplo)</small></h2>
+		<pre>
+			<code><strong>HTTP/1.1 200 OK</strong></code>
+			<code><mark>Cache-Control: must-revalidate, max-age=3600</mark></code>
+			<code>Content-Type: application/json; charset=utf-8</code>
+			<code><mark>Last-Modified: Wed, 26 Dec 2012 22:05:15 GMT</mark></code>
+			<code>Date: Thu, 27 Dec 2012 01:05:15 GMT</code>
+			<code>Content-Length: 183</code>
+		</pre>
+	</div></section>
+
+	<section class="slide"><div>
+		<h2>Caching (invalidação)</h2>
+
+		<ul>
+			<li>A cache de um intermediário deve ser invalidada se este:
+				<ul>
+					<li>observar um pedido <em>unsafe</em> para um recurso que tem guardado</li>
+					<li>observar uma resposta, sem erro, com header <code>Location</code> ou <code>Content-Location</code> de um recurso guardado</li>
+				</ul>
+			</li>
+		</ul>
+	</div></section>
+
+	<section class="slide"><div>
+		<h2>Caching (ETag)</h2>
+
+		<ul>
+			<li>Uma <code>ETag</code> é um validador opaco de uma representação</li>
+			<li>É usada pelos cliente para realizar pedidos condicionais (<code>If-Match</code>)</li>
+			<li>Se a representação de um recurso mudar, este valor também deve mudar</li>
+		</ul>
+	</div></section>
+
+	<section class="slide"><div>
+		<h2>Caching (no-cache)</h2>
+
+		<p>Quando, genericamente, fazemos Ctrl-F5 num browser é realizado um pedido HTTP usando o header <code>Cache-Control: no-cache</code> para indicar que não pretendemos conteúdo cached.</p>
+
+	</div></section>
+
+	<section class="slide"><div>
+		<h2>Caching (HTTP Status 304)</h2>
+
+		<p>As respostas servidas da cache (proxy, cache do servidor) geram resposta HTTP <code>304 Not Modified</code>.</p>
+
+	</div></section>
+
+
+	<section class="slide"><div>
+		<h2>Autenticação</h2>
+
+		<ul>
+			<li>O HTTP fornece mecanismo, extensível, para protecção de recursos</li>
+			<li>Os conjunto de recursos protegidos são agrupado em <em>realms</em></li>
+			<li>O servidor HTTP responde com os seguintes código de estado
+				<ul>
+					<li><code>401 Unauthorized</code>: quando o cliente não está autorizado
+						<ul>
+						 	<li>anónimo acede a recurso privado</li>
+						 </ul>
+					</li>
+					<li><code>403 Forbidden</code>: quando o cliente está proibido
+						<ul>
+						 	<li>autenticado mas acesso proibido</li>
+						 </ul>
+				 	</li>
+				</ul>
+			</li>
+		</ul>
+	</div></section>
+
+	<section class="slide"><div>
+		<h2>Autenticação (esquemas)</h2>
+
+		<ul>
+			<li>O RFC 2617 define dois mecanismos de autenticação
+				<ul>
+					<li><code>Basic</code>: credenciaos (utilizador e password) enviados em base64</li>
+					<li><code>Digest</code>: credenciais enviadas em claro (não costuma ser usado)</li>
+				</ul>
+			</li>
+		</ul>
+	</div></section>
+
+	<section class="slide"><div>
+		<h2>Autenticação (exemplo 1/2)</h2>
+		<h3><strong>Pedido</strong></h3>
+		<pre>
+			<code>GET /some/private/resource HTTP/1.1</code>
+			<code>...</code>
+		</pre>
+
+		<h3><strong>Resposta</strong> (indica ser necessário autenticação)</h3>
+		<pre>
+			<code>HTTP/1.1 <mark>401 Unauthorized</mark></code>
+			<code><mark>WWW-Authenticate: Basic realm="some realm"</mark></code>
+			<code>...</code>
+		</pre>
+
+	</div></section>
+
+	<section class="slide"><div>
+		<h2>Autenticação (exemplo 2/2)</h2>
+		<h3><strong>Pedido</strong></h3>
+		<pre>
+			<code>GET /some/private/resource HTTP/1.1</code>
+			<code><mark>Authorization Basic QwxpAZ125EFAedc134</mark></code>
+			<code>...</code>
+		</pre>
+
+		<h3><strong>Resposta</strong></h3>
+		<pre>
+			<code>HTTP/1.1 <mark>200 OK</mark></code>
+			<code>...</code>
+		</pre>
+
+	</div></section>
+
+	<section class="slide"><div>
+		<h2>Autenticação</h2>
+		<p>HTTP Headers relacionados</p>
+		<ul>
+			<li><code>WWW-Authenticate</code>: usado nas resposta para indicar que é necessário autenticação, e o mecanismo suportado.</li>
+			<li><code>Authorization</code>: usado nos pedidos para enviar informação de autorização.</li>
+		</ul>
+	</div></section>
+
+	<section class="slide"><div>
+		<h2>Autenticação</h2>
+		<p>Tipos de autenticação normalmente usados:</p>
+		<ul>
+			<li><code>Basic</code></li>
+			<li><code>Oauth 2.0</code></li>
+			<li><code>Hawk</code></li>
+		</ul>
+	</div></section>
+
+
+
+
+
+	<section class="slide"><div>
+		<h2>Referências</h2>
+
+		<ul>
+			<li><a href="http://chimera.labs.oreilly.com/books/1234000001708/ch01.html">Capítulo 1</a> do livro <strong>Designing Evolvable Web APIs with ASP.NET</strong></li>
+			<li><a href="https://github.com/shower/shower">Shower HTML presentation engine</a></li>
+		</ul>
+	</div></section>
+
+
+	<!-- To hide progress bar from entire presentation just remove “progress” element. -->
+	<div class="progress"><div></div></div>
+	<script src="http://roadmap.iojs.org/shower/shower.min.js"></script>
+
+</body>
+</html>
+
