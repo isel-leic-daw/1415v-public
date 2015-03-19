@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstWebAPI", "FirstWebAPI\FirstWebAPI.csproj", "{CAE51C0E-29FB-41DD-AEC2-108993D673BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreetingsApi", "GreetingsApi\GreetingsApi.csproj", "{19C0A0BD-63B0-412A-9436-43A21DF4AAE1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CAE51C0E-29FB-41DD-AEC2-108993D673BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAE51C0E-29FB-41DD-AEC2-108993D673BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAE51C0E-29FB-41DD-AEC2-108993D673BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAE51C0E-29FB-41DD-AEC2-108993D673BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19C0A0BD-63B0-412A-9436-43A21DF4AAE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19C0A0BD-63B0-412A-9436-43A21DF4AAE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19C0A0BD-63B0-412A-9436-43A21DF4AAE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19C0A0BD-63B0-412A-9436-43A21DF4AAE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
