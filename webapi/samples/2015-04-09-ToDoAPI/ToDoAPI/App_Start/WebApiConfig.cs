@@ -19,6 +19,12 @@ namespace ToDoAPI
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
+
+            // Get rid of XML formater
+            var xmlFormatter = config.Formatters.XmlFormatter;
+            config.Formatters.Remove(xmlFormatter);
+
+
         }
     }
 }
