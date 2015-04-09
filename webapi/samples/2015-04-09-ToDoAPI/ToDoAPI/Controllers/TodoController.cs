@@ -12,12 +12,12 @@ namespace ToDoAPI.Controllers
     public class ToDoController : ApiController
     {
         [Route("api/todo", Name = "GetAllTodos")]
-        public TodoListState Get()
+        public TodoListState Get(int page = 1)
         {
             var store = new ToDoStore();
-            var todos = store.GetAll(1);
+            var todos = store.GetAll(page);
 
-            var todoListState = new TodoListState(todos, 1);
+            var todoListState = new TodoListState(todos, page, ToDoStore.PAGE_SIZE);
             return todoListState;
         }
 

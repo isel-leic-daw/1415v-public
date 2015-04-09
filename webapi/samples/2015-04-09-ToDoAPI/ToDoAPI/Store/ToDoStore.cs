@@ -36,9 +36,10 @@ namespace ToDoAPI.Store
             new Todo(7, "Publish your API", DateTime.Now.AddDays(4)),
         };
 
+        public const int PAGE_SIZE = 3;
+
         public IEnumerable<Todo> GetAll(int page = 1)
         {
-            const int PAGE_SIZE = 3;
             return todos
                     .Skip(PAGE_SIZE * (page-1))
                     .Take(PAGE_SIZE);

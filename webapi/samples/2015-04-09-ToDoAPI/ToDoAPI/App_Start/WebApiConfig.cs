@@ -23,8 +23,6 @@ namespace ToDoAPI
             // Get rid of XML formater
             var xmlFormatter = config.Formatters.XmlFormatter;
             config.Formatters.Remove(xmlFormatter);
-
-
         }
     }
 }
