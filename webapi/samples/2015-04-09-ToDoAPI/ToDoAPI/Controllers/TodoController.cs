@@ -4,6 +4,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using ToDoAPI.StateModels;
 using ToDoAPI.Store;
 
 namespace ToDoAPI.Controllers
@@ -11,11 +12,13 @@ namespace ToDoAPI.Controllers
     public class ToDoController : ApiController
     {
         [Route("api/todo", Name = "GetAllTodos")]
-        public IEnumerable<Todo> Get()
+        public TodoListState Get()
         {
             var store = new ToDoStore();
             var todos = store.GetAll(1);
-            return todos;
+
+            var todoListState = new TodoListState(todos, 1);
+            return todoListState;
         }
 
         [Route("api/todo/{id}", Name = "GetTodoById")]
@@ -26,7 +29,9 @@ namespace ToDoAPI.Controllers
             if (todo == null)
                 return Request.CreateResponse(HttpStatusCode.NotFound);
 
-            return Request.CreateResponse(todo);
+            var todoState = new TodoState(todo);
+
+            return Request.CreateResponse(todoState);
         }
 
     }
