@@ -23,9 +23,11 @@ namespace ToDoAPI
             var halJsonConfig = new HalJsonConfiguration();
 #endif
             // We can configure links (and embedded) using this Fluent API
+            /*
             halJsonConfig.Configure<TodoState>()
                 .Link("self", t => "/api/todo/" + t.Id)
                 .Link("all", "/api/todo");
+            */
 
             config.Formatters.JsonFormatter.SerializerSettings.ContractResolver = new JsonNetHalJsonContactResolver(halJsonConfig);
             // Swashbuckle 5.0, unable to generate swagger json for web api 2
