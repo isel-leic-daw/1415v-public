@@ -22,6 +22,7 @@ namespace ToDoAPI.Controllers
         }
 
         [Route("api/todo/{id}", Name = "GetTodoById")]
+        [Swashbuckle.Swagger.Annotations.SwaggerResponse(200, Description = "Ok", Type = typeof(TodoState))]
         public HttpResponseMessage GetById(int id)
         {
             var store = new ToDoStore();
