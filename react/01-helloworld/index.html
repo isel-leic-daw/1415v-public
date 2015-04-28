@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>React 01 - Hello World</title>
+</head>
+<body>
+    <div id="app">
+        Default website html....
+    </div>
+    <script src="https://fb.me/react-0.13.2.js"></script>
+    <script>
+        var Application = React.createClass({
+            render: function()
+            {
+                return React.createElement("div", null, "Olá");
+            }
+        });
+
+        var app = document.getElementById("app");
+        React.render(
+            React.createElement(Application),
+            app);
+    </script>
+</body>
+</html>
