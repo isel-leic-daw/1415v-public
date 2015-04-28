@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>React 04 - Timer - with state</title>
+</head>
+<body>
+    <div id="app">
+        Loading ....
+    </div>
+    <script src="https://fb.me/react-0.13.2.js"></script>
+    <script src="https://fb.me/JSXTransformer-0.13.2.js"></script>
+    <script type="text/jsx">
+        TimerComponent = React.createClass(
+        {
+            getInitialState: function()
+            {
+                return {
+                    value: this.props.initialValue
+                }
+            },
+
+            componentWillMount: function(){
+                this._timer = setInterval(
+                    this._updateTimerValue,
+                    1000
+                );
+            },
+            componentWillUnmount: function() {
+                clearInterval(this._timer);
+            },
+
+            render: function()
+            {
+
+                return <div>Time: {this.state.value}</div>
+            },
+
+            _timer: 0,
+            _updateTimerValue: function()
+            {
+               this.setState({ value: this.state.value+1 });
+            },
+
+        });
+
+        var app = document.getElementById("app");
+        var timerValue = 42;
+        React.render(
+            <div>
+                <TimerComponent initialValue={timerValue} />
+                <hr />
+                <TimerComponent initialValue={timerValue*2} />
+            </div>,
+            app);
+    </script>
+    <script>
+
+    </script>
+</body>
+</html>

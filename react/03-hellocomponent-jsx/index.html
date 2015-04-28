@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>React 03 - Hello Component JSX</title>
+</head>
+<body>
+    <div id="app">
+        Loading ....
+    </div>
+    <script src="https://fb.me/react-0.13.2.js"></script>
+    <script src="https://fb.me/JSXTransformer-0.13.2.js"></script>
+    <script type="text/jsx">
+        HelloComponent = React.createClass(
+        {
+            render: function()
+            {
+                return (
+                    <div>
+                        Olá {this.props.firstname}&nbsp;
+                        {this.props.lastname}
+                    </div>
+                );
+            }
+        });
+
+        var app = document.getElementById("app");
+        React.render(
+            <HelloComponent firstname="Carlos" lastname="Guedes" />,
+            app);
+    </script>
+    <script>
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>React 02 - Hello Component</title>
+</head>
+<body>
+    <div id="app">
+        Loading ....
+    </div>
+    <script src="https://fb.me/react-0.13.2.js"></script>
+    <script>
+        var HelloComponent = React.createClass(
+        {
+            _getName: function()
+            {
+                return this.props.name || "Desconhecido!";
+            },
+
+            render: function()
+            {
+                return React.DOM.div(null, "Olá " + this._getName());
+            }
+        });
+
+        var app = document.getElementById("app");
+        var props = { name: "Carlos Guedes" };
+        React.render(
+            React.createElement(HelloComponent, props),
+            app);
+    </script>
+</body>
+</html>
