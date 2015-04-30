@@ -1,0 +1,26 @@
+{
+  "name": "05-timercomponent-external-files",
+  "version": "1.0.0",
+  "description": "Sample REACT application with jsx and transformation and packaging with webpack",
+  "main": "index.html",
+
+  "scripts": {
+    "start-dev-server": "http-server .",
+    "build-jsx": "jsx -x jsx ./components ./build --watch",
+    "dist": "webpack ./build/*.js ./dist/bundle.js --progress --optimize-minimize --watch"
+  },
+
+  "keywords": [
+    "react",
+    "js",
+    "jsx",
+    "sample",
+    "webpack"
+  ],
+  "author": "Carlos Guedes",
+  "license": "MIT",
+
+  "dependencies": {
+    "react": "^0.13.2"
+  }
+}
