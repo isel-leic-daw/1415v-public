@@ -1,5 +1,4 @@
 var React = require("react");
-var TimerComponent = require("./TimerComponent");
 var Searcher = require("./Searcher");
 
 var app = document.getElementById("app");
@@ -12,17 +11,14 @@ function handleSearcherChange(searcherText)
     renderApp();
 }
 
-
 function renderApp() {
+
+    var inlineStyles = { "fontSize": "20px", "border" : "solid 1px black" };
 
     React.render(
         <div>
-            <TimerComponent initialValue={timerValue} />
-            <hr />
-            <TimerComponent initialValue={timerValue*2} />
-            <hr />
-            <Searcher onChange={handleSearcherChange} />
-            <div><strong>Text:</strong> {text}</div>
+            <Searcher onChange={handleSearcherChange} waitTimeout={10} />
+            <div style={inlineStyles}><strong>Text:</strong> {text}</div>
         </div>,
         app);
 

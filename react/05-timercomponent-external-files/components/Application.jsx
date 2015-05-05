@@ -1,3 +1,5 @@
+/** @jsx React.DOM */
+
 var React = require("react");
 var TimerComponent = require("./TimerComponent");
 var Searcher = require("./Searcher");

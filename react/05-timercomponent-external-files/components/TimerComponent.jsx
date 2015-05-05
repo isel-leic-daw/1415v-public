@@ -1,3 +1,4 @@
+/** @jsx React.DOM */
 
 // Using CommonJS components (i.e. module.exports & require("component"))
 var React = require("react");
