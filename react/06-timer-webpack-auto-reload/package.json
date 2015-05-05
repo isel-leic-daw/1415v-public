@@ -1,0 +1,29 @@
+{
+  "name": "06-timer-webpack-auto-reload",
+  "version": "1.0.0",
+  "description": "Sample REACT application with jsx and transformation and packaging with webpack",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run serve | npm run dev",
+    "serve": "http-server . -p 8080",
+    "dev": "webpack-dev-server --progress --colors --port 8090"
+  },
+  "keywords": [
+    "react",
+    "js",
+    "jsx",
+    "sample",
+    "webpack"
+  ],
+  "author": "Carlos Guedes",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^0.13.2"
+  },
+  "devDependencies": {
+    "http-server": "^0.8.0",
+    "jsx-loader": "^0.13.2",
+    "webpack": "^1.8.11",
+    "webpack-dev-server": "^1.8.2"
+  }
+}
