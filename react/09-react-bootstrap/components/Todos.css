@@ -1,0 +1,48 @@
+.todos {
+    margin-top:10px;
+    border:solid 1px gray;
+    background-color: #EDEDED;
+    padding: 0px;
+}
+
+.todos h2 {
+    margin: 0;
+    background-color: #DEDEDE;
+    padding: 6px;
+    border-bottom: solid 1px gray;
+}
+
+.todos ul {
+    margin: 20px;
+    padding-left: 0;
+}
+
+.todos ul li {
+    list-style-type: none;
+    padding: 4px;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.todos ul li.done {
+    text-decoration: line-through;
+    color: #CCC;
+}
+
+
+.todos ul li:hover {
+    background-color: #DDD;
+}
+
+.todos ul li .actions {
+    opacity: .2;
+}
+
+.todos ul li:hover .actions {
+    opacity: 1;
+}
+
+
+.todos form {
+    margin: 10px;
+}
