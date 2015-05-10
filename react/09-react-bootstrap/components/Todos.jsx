@@ -1,12 +1,10 @@
-var React = require('react');
-require("./Todos.css");
+import React from "react";
+import Styles from "./Todos.css";
 
-var Glyphicon = require("react-bootstrap").Glyphicon;
-var Input = require("react-bootstrap").Input;
+import { Glyphicon, Input, Row, Col } from "react-bootstrap";
+import TodosStore from "./../stores/TodosStore";
 
-var TodosStore = require("./../stores/TodosStore");
-
-var Todos = React.createClass({
+export default React.createClass({
 
     getInitialState() {
         var list = TodosStore.getList(this.props.listName);
@@ -54,7 +52,6 @@ var Todos = React.createClass({
 
 });
 
-
 var TodoList = React.createClass({
 
     propTypes: {
@@ -79,7 +76,6 @@ var TodoList = React.createClass({
 
 });
 
-var React = require('react');
 
 var TodoItem = React.createClass({
 
@@ -88,14 +84,14 @@ var TodoItem = React.createClass({
         onUpdatedText: React.PropTypes.func.isRequired
     },
 
-    getInitialState: function() {
+    getInitialState() {
         return {
             isEditing: false,
             text: this.props.todo.text
         };
     },
 
-    render: function() {
+    render() {
 
         var actions = <div className="pull-right actions">
             <span onClick={this.handleEdit}><Glyphicon glyph='edit' /></span>&nbsp;
@@ -135,8 +131,6 @@ var TodoItem = React.createClass({
 
 });
 
-module.exports = TodoItem;
-
 var TodoForm = React.createClass({
 
     propTypes: {
@@ -158,6 +152,3 @@ var TodoForm = React.createClass({
     }
 
 });
-
-
-module.exports = Todos;

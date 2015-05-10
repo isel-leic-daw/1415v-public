@@ -1,18 +1,8 @@
-var React = require("react");
-var Todos = require("./Todos");
-
-var Alert = require("react-bootstrap").Alert
-  , Navbar = require("react-bootstrap").Navbar
-  , Nav = require("react-bootstrap").Nav
-  , NavItem = require("react-bootstrap").NavItem
-  , DropdownButton = require("react-bootstrap").DropdownButton
-  , MenuItem = require("react-bootstrap").MenuItem
-  , Row = require("react-bootstrap").Row
-  , Col = require("react-bootstrap").Col
-  ;
+import React from "react";
+import Todos from "./Todos";
+import { Alert, Navbar, Nav, NavItem, DropdownButton, MenuItem, Col, Row } from "react-bootstrap";
 
 var app = document.getElementById("app");
-
 
 const mainNavBar = (
   <Navbar brand='TODO Lists'>

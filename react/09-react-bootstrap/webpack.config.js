@@ -11,11 +11,17 @@ module.exports = {
             {
                 //tell webpack to use jsx-loader for all *.jsx files
                 test: /\.jsx$/,
-                loader: 'jsx-loader?insertPragma=React.DOM&harmony'
+                //loader: 'jsx-loader?insertPragma=React.DOM&harmony'
+                loader: 'babel-loader'
             },
             {
                 test: /\.css$/,
                 loader: "style-loader!css-loader"
+            },
+            {
+                test: /\.js$/,
+                loader: 'babel-loader',
+                exclude: /node_modules/
             }
         ]
     },

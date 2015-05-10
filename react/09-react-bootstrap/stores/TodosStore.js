@@ -1,5 +1,3 @@
-
-
 var DEFAULT_TODO_LISTS = {
     "shopping": {
         id: "shopping",
@@ -43,44 +41,41 @@ var listeners = [];
 
 var TodosStore = {
 
-    getList: function(listName) {
+    getList(listName) {
         return todoLists[listName];
     },
 
-    addTodoItem: function(listName, todoText) {
+    addTodoItem(listName, todoText) {
         var list = todoLists[listName];
         list.todos.push({id: list.todos.length, text: todoText});
         this.fireListUpdated(listName);
     },
 
-    markCompleted: function(listName, todoId) {
+    markCompleted(listName, todoId) {
         var list = todoLists[listName];
-        list.todos.forEach(function(todo) { if(todo.id == todoId) todo.done = true; });
+        list.todos.filter(todo => todo.id == todoId).forEach(todo => todo.done = !todo.done);
         this.fireListUpdated(listName);
     },
 
-    updateText: function(listName, todoId, newText) {
+    updateText(listName, todoId, newText) {
         var list = todoLists[listName];
-        list.todos.forEach(function(todo) { if(todo.id == todoId) todo.text = newText; });
+        list.todos.filter(todo => todo.id == todoId).forEach(todo => todo.text = newText);
         this.fireListUpdated(listName);
     },
 
-    register: function(listener) {
+    register(listener) {
         listeners.push(listener);
     },
-    unregister: function(listener) {
+    unregister(listener) {
         var idx = listeners.indexOf(listener);
         listeners.splice(idx, 1);
     },
 
-    fireListUpdated: function(listName) {
+    fireListUpdated(listName) {
         saveToLocalStorage();
-        listeners.forEach(function(listener) { listener(listName) });
+        listeners.forEach(listener => listener(listName));
     }
-
-
-
 
 };
 
-module.exports = TodosStore;
+export default TodosStore;

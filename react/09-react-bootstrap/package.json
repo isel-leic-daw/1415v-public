@@ -21,9 +21,10 @@
     "react": "^0.13.2"
   },
   "devDependencies": {
+    "babel-core": "^5.2.17",
+    "babel-loader": "^5.0.0",
     "css-loader": "^0.12.0",
     "http-server": "^0.8.0",
-    "jsx-loader": "^0.13.2",
     "react-bootstrap": "^0.21.2",
     "style-loader": "^0.12.1",
     "webpack": "^1.8.11",
