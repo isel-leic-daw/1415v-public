@@ -4,26 +4,31 @@ import Styles from "./Todos.css";
 import { Glyphicon, Input, Row, Col } from "react-bootstrap";
 import TodosStore from "./../stores/TodosStore";
 
-export default React.createClass({
-
-    getInitialState() {
+export default React.createClass(
+{
+    getInitialState()
+    {
         var list = TodosStore.getList(this.props.listName);
         return {list: list};
     },
 
-    handleNewTodo(text) {
+    handleNewTodo(text)
+    {
         TodosStore.addTodoItem(this.props.listName, text);
     },
 
-    handleCompleted(todoId) {
+    handleCompleted(todoId)
+    {
         TodosStore.markCompleted(this.props.listName, todoId);
     },
 
-    handleUpdatedText(todoId, text) {
+    handleUpdatedText(todoId, text)
+    {
         TodosStore.updateText(this.props.listName, todoId, text);
     },
 
-    render() {
+    render()
+    {
         return (
             <div className="todos">
                 <h2>{this.state.list.name}
@@ -37,15 +42,18 @@ export default React.createClass({
         );
     },
 
-    componentDidMount() {
+    componentDidMount()
+    {
         TodosStore.register(this._updateStateFromStore);
     },
 
-    componentWillUnmount() {
+    componentWillUnmount()
+    {
         TodosStore.unregister(this._updateStateFromStore);
     },
 
-    _updateStateFromStore(updatedList) {
+    _updateStateFromStore(updatedList)
+    {
         if(updatedList == this.state.list.id)
             this.setState({list: TodosStore.getList(this.props.listName) });
     }
@@ -84,15 +92,16 @@ var TodoItem = React.createClass({
         onUpdatedText: React.PropTypes.func.isRequired
     },
 
-    getInitialState() {
+    getInitialState()
+    {
         return {
             isEditing: false,
             text: this.props.todo.text
         };
     },
 
-    render() {
-
+    render()
+    {
         var actions = <div className="pull-right actions">
             <span onClick={this.handleEdit}><Glyphicon glyph='edit' /></span>&nbsp;
             <span onClick={this.handleCompleted}><Glyphicon glyph='trash' /></span>

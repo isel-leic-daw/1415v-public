@@ -5,7 +5,7 @@ import { Alert, Navbar, Nav, NavItem, DropdownButton, MenuItem, Col, Row } from 
 var app = document.getElementById("app");
 
 const mainNavBar = (
-  <Navbar brand='TODO Lists'>
+  <Navbar brand='TODO Lists' >
     <Nav>
       <NavItem eventKey={1} href='#'>About</NavItem>
       <NavItem eventKey={2} href='#'>Settings</NavItem>
