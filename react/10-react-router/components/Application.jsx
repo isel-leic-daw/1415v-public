@@ -1,16 +1,15 @@
 import React from "react";
-import Todos from "./Todos";
 import { Alert, Navbar, Nav, Badge, Label, NavItem, DropdownButton, MenuItem, Col, Row } from "react-bootstrap"
 import { NavItemLink } from "react-router-bootstrap"
 
 import Router, {Route, Link, DefaultRoute, NotFoundRoute, RouteHandler} from "react-router";
 
-import TodoLists        from "./TodoLists";
-import TodoListCreate   from "./TodoListCreate";
-import TodoList         from "./TodoList";
-import PageNotFound     from "./PageNotFound";
-import Welcome          from "./Welcome";
-import WelcomeTodoLists from "./WelcomeTodoLists";
+import TodoListsContainer from "./TodoListsContainer";
+import TodoListCreate     from "./TodoListCreate";
+import TodoList           from "./TodoList";
+import PageNotFound       from "./PageNotFound";
+import Welcome            from "./Welcome";
+import WelcomeTodoLists   from "./WelcomeTodoLists";
 
 import TasksSummary   from "./TasksSummary";
 
@@ -39,7 +38,7 @@ var routes = (
   <Route name="root" path="/" handler={Root}>
     <DefaultRoute handler={Welcome}/>
     <Route path="todos/create" name="todos-create"  handler={TodoListCreate} />
-    <Route path="todos" name="todos"  handler={TodoLists} >
+    <Route path="todos" name="todos"  handler={TodoListsContainer} >
       <DefaultRoute handler={WelcomeTodoLists}/>
       <Route path=":id" name="todo"  handler={TodoList} />
     </Route>

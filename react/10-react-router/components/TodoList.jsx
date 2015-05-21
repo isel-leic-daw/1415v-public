@@ -1,5 +1,5 @@
  import React from "react";
-import Styles from "./Todos.css";
+import Styles from "./TodoList.css";
 import { Glyphicon, ButtonInput, Input, Row, Col } from "react-bootstrap";
 
 import TodosStore from "./../stores/TodosStore";
