@@ -1,0 +1,1549 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"L",
+				"Link"
+			],
+			[
+				"Todo",
+				"TodoLists"
+			],
+			[
+				"Al",
+				"AllTodos"
+			],
+			[
+				"Rou",
+				"RouteHandler"
+			],
+			[
+				"todo",
+				"todoId"
+			],
+			[
+				"on",
+				"onUpdatedText"
+			],
+			[
+				"tex",
+				"textOrEditingUI"
+			],
+			[
+				"handlee",
+				"handleEdit"
+			],
+			[
+				"gt",
+				"getInitialState"
+			],
+			[
+				"list",
+				"listName"
+			],
+			[
+				"prop",
+				"props	React: this.props."
+			],
+			[
+				"handle",
+				"handleComplete"
+			],
+			[
+				"fu",
+				"func"
+			],
+			[
+				"PR",
+				"PropTypes"
+			],
+			[
+				"onC",
+				"onCompleted"
+			],
+			[
+				"han",
+				"handleComplete"
+			],
+			[
+				"font-",
+				"font-style"
+			],
+			[
+				"line",
+				"outline-style"
+			],
+			[
+				"lie",
+				"listeners"
+			],
+			[
+				"liet",
+				"listener"
+			],
+			[
+				"co",
+				"componentWillUnmount"
+			],
+			[
+				"up",
+				"_updateStateFromStore"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"lis",
+				"listener"
+			],
+			[
+				"TodoS",
+				"TodosStore"
+			],
+			[
+				"u",
+				"updatedList"
+			],
+			[
+				"get",
+				"getList"
+			],
+			[
+				"Todos",
+				"TodosStore"
+			],
+			[
+				"set",
+				"state	React: this.state."
+			],
+			[
+				"cw",
+				"cwun	React: componentWillUnmount: fn() { ... }"
+			],
+			[
+				"pul",
+				"preventDefault"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"r",
+				"rcc	React: component skeleton"
+			],
+			[
+				"c",
+				"cdm	React: componentDidMount: fn() { ... }"
+			],
+			[
+				"re",
+				"ren	React: render: fn() { return ... }"
+			],
+			[
+				"Drop",
+				"DropdownButton"
+			],
+			[
+				"PRo",
+				"propTypes"
+			],
+			[
+				"sear",
+				"searcherStyles"
+			],
+			[
+				"ren",
+				"renderApp"
+			],
+			[
+				"Timer",
+				"TimerComponent"
+			],
+			[
+				"H",
+				"HelloWorld"
+			],
+			[
+				"cap",
+				"captureAndSendTab"
+			],
+			[
+				"captu",
+				"captureTimerId"
+			],
+			[
+				"wind",
+				"windowId"
+			],
+			[
+				"tv",
+				"TVs"
+			],
+			[
+				"tab",
+				"tabs"
+			],
+			[
+				"capt",
+				"captureTabs"
+			],
+			[
+				"hi",
+				"highlight"
+			],
+			[
+				"ca",
+				"captureVisibleTab"
+			],
+			[
+				"curre",
+				"currentTab"
+			],
+			[
+				"hig",
+				"highlightTab"
+			],
+			[
+				"high",
+				"highlight"
+			],
+			[
+				"wi",
+				"windowId"
+			],
+			[
+				"in",
+				"index"
+			],
+			[
+				"w",
+				"windowId"
+			],
+			[
+				"hos",
+				"hostAndPort"
+			],
+			[
+				"inn",
+				"innerWidth"
+			],
+			[
+				"la",
+				"labelResolution"
+			],
+			[
+				"not",
+				"notifyAvailableTvs"
+			],
+			[
+				"scr",
+				"scroll"
+			],
+			[
+				"pro",
+				"props	React: this.props."
+			],
+			[
+				"res",
+				"resolution"
+			],
+			[
+				"regi",
+				"registerTv"
+			],
+			[
+				"s",
+				"style	Attr"
+			],
+			[
+				"class",
+				"classList"
+			],
+			[
+				"tvI",
+				"tvInfo"
+			],
+			[
+				"active",
+				"activeInfo"
+			],
+			[
+				"fa",
+				"favIconUrl"
+			],
+			[
+				"tvM",
+				"tvModel"
+			],
+			[
+				"tvMode",
+				"tvModels"
+			],
+			[
+				"sen",
+				"senderId"
+			],
+			[
+				"connec",
+				"connected"
+			],
+			[
+				"conn",
+				"connected"
+			],
+			[
+				"tvm",
+				"tvModels"
+			],
+			[
+				"D",
+				"Disconnected"
+			],
+			[
+				"data",
+				"dataUrl"
+			],
+			[
+				"ta",
+				"tabId"
+			],
+			[
+				"ti",
+				"timer"
+			],
+			[
+				"update",
+				"updateUI"
+			],
+			[
+				"curr",
+				"currentTab"
+			],
+			[
+				"cb_br",
+				"cb_broadcastViaImage"
+			],
+			[
+				"br",
+				"broadcastViaVideo"
+			],
+			[
+				"upda",
+				"updateOnTime"
+			],
+			[
+				"refre",
+				"refreshInterval"
+			],
+			[
+				"de",
+				"debounceMutation"
+			],
+			[
+				"en",
+				"evtHandler"
+			],
+			[
+				"evt",
+				"evtHandler"
+			],
+			[
+				"clo",
+				"closePopupTimeout"
+			],
+			[
+				"close",
+				"closePopup"
+			],
+			[
+				"conne",
+				"connectedToTv"
+			],
+			[
+				"sta",
+				"currentStatus"
+			],
+			[
+				"onc",
+				"onConnectOk"
+			],
+			[
+				"dis",
+				"disconnectFromServer"
+			],
+			[
+				"cur",
+				"currentTv"
+			],
+			[
+				"current",
+				"currentTv"
+			],
+			[
+				"tvs",
+				"tvsListGroup"
+			],
+			[
+				"discno",
+				"disconnected"
+			],
+			[
+				"disc",
+				"disconnecting"
+			],
+			[
+				"load",
+				"loadingTvs"
+			],
+			[
+				"connectedT",
+				"connectedToTv"
+			],
+			[
+				"connectingT",
+				"connectingToServer"
+			],
+			[
+				"con",
+				"connected"
+			],
+			[
+				"bb",
+				"bbInfo"
+			],
+			[
+				"scro",
+				"scrollY"
+			],
+			[
+				"widw",
+				"window"
+			],
+			[
+				"pgore",
+				"progressBar"
+			],
+			[
+				"progre",
+				"progressBar"
+			],
+			[
+				"tvScr",
+				"tvScreenFake"
+			],
+			[
+				"imgT",
+				"imgToShow"
+			],
+			[
+				"Broadcastn",
+				"broadcastButtons"
+			],
+			[
+				"is",
+				"isBroacasting"
+			],
+			[
+				"crea",
+				"createBroadcastButtonFor"
+			],
+			[
+				"cre",
+				"createBroadcastButton"
+			],
+			[
+				"b",
+				"broadcastButtonStyle"
+			],
+			[
+				"indiv",
+				"indivíduo"
+			],
+			[
+				"port",
+				"portfólio"
+			],
+			[
+				"op",
+				"option"
+			],
+			[
+				"enu",
+				"enumValue"
+			],
+			[
+				"Gete",
+				"getEditorForSelect"
+			],
+			[
+				"gete",
+				"getEditorForInput"
+			],
+			[
+				"sto",
+				"storedAPI"
+			],
+			[
+				"AP",
+				"API_DATA"
+			],
+			[
+				"local",
+				"localStorage"
+			],
+			[
+				"Doc",
+				"DocumentationWidgetTabGeneral"
+			],
+			[
+				"Do",
+				"DocumentationWidgetParameters"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "components/Application.jsx",
+			"settings":
+			{
+				"buffer_size": 1449,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 757,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 167.0,
+		"last_filter": "bab",
+		"selected_items":
+		[
+			[
+				"bab",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"mar",
+				"Set Syntax: Markdown"
+			],
+			[
+				"pla",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"nbab",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"tr",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"tra",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"babe",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"react",
+				"Snippet: React: var cx = React.addons.classSet;"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"babel",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"list pa",
+				"Package Control: List Packages"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"caps",
+				"Convert Case: Swap Case"
+			],
+			[
+				"ran",
+				"Random:Text"
+			],
+			[
+				"lorem",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"w",
+				"Word Wrap: Toggle"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"HTML",
+				"Set Syntax: HTML"
+			],
+			[
+				"space",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"mini",
+				"View: Toggle Minimap"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"t",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"TRA",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"T",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"jade",
+				"Project: Add Folder"
+			],
+			[
+				"lore",
+				"Add some Lorem Gibson"
+			],
+			[
+				"rei",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"re",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"trai",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"unf",
+				"Code Folding: Unfold All"
+			],
+			[
+				"fold",
+				"Code Folding: Fold Tag Attributes"
+			],
+			[
+				"mat",
+				"Emmet: Go to Matching Pair"
+			],
+			[
+				"matc",
+				"Emmet: Go to Matching Pair"
+			],
+			[
+				"wor",
+				"Word Wrap: Toggle"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"RANDT",
+				"Random:Text"
+			],
+			[
+				"ramte",
+				"Random:Text"
+			],
+			[
+				"ram",
+				"Random:E-mail"
+			],
+			[
+				"ra",
+				"Random:Text"
+			],
+			[
+				"rad",
+				"Random:Text"
+			],
+			[
+				"spa",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"randst",
+				"Random:Letters and numbers"
+			],
+			[
+				"rand",
+				"Random:Float"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"remove p",
+				"Package Control: Remove Package"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"mi",
+				"View: Toggle Minimap"
+			],
+			[
+				"sideb",
+				"View: Toggle Side Bar"
+			]
+		],
+		"width": 476.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_2/DAW/1415v-public/react/10-react-router"
+	],
+	"file_history":
+	[
+		"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_2/DAW/1415v-public/react/10-react-router/settings.sublime-project",
+		"/Users/cguedes/Library/Application Support/Sublime Text 3/Settings/SideBarEnhancements.json",
+		"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_2/DAW/1415v-public/react/10-react-router/components/Welcome.jsx",
+		"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_2/DAW/1415v-public/react/10-react-router/components/TodoLists.jsx",
+		"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_2/DAW/1415v-public/react/10-react-router/components/PageNotFound.jsx",
+		"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_2/DAW/1415v-public/react/10-react-router/index.html",
+		"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_2/DAW/1415v-public/react/10-react-router/package.json",
+		"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_2/DAW/1415v-public/react/09-react-bootstrap/index.html",
+		"/Users/cguedes/Documents/cguedes/Projects/react/reapp-thoth/app/components/home/Classes.jsx",
+		"/Users/cguedes/Documents/cguedes/Projects/react/reapp-thoth/app/components/Home.jsx",
+		"/Users/cguedes/Documents/cguedes/Projects/react/reapp-thoth/app/app.js",
+		"/Users/cguedes/Documents/cguedes/Projects/react/reapp-thoth/build/web/README.md",
+		"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_2/DAW/1415v-public/react/09-react-bootstrap/package.json",
+		"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_2/DAW/1415v-public/react/09-react-bootstrap/stores/TodosStore.js",
+		"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_2/DAW/1415v-public/react/09-react-bootstrap/components/Application.jsx",
+		"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_2/DAW/1415v-public/react/09-react-bootstrap/components/Todos.jsx",
+		"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_2/DAW/1415v-public/react/09-react-bootstrap/bower.json",
+		"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_2/DAW/1415v-public/react/09-react-bootstrap/webpack.config.js",
+		"/Users/cguedes/.kodi/temp/scrapers/metadata.themoviedb.org/tmdb-trailer-en-244786.json",
+		"/Users/cguedes/Google Drive/Sky/2015/notas reunião 12 Maio 2015.mdown",
+		"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_2/DAW/1415v-public/react/09-react-bootstrap/components/Todos.css",
+		"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_2/DAW/1415v-public/react/09-react-bootstrap/node_modules/react-bootstrap/lib/Alert.js",
+		"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_2/DAW/1415v-public/react/09-react-bootstrap/bower_components/bootstrap/dist/js/bootstrap.min.js",
+		"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_2/DAW/1415v-public/react/08-react-todos/index.html",
+		"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_2/DAW/1415v-public/react/08-react-todos/components/Application.jsx",
+		"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_2/DAW/1415v-public/react/08-react-todos/components/Todos.jsx",
+		"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_2/DAW/daw-react-aula2.mdown",
+		"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_2/DAW/1415v-public/react/08-react-todos/package.json",
+		"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_2/DAW/1415v-public/react/07-react-props/webpack.config.js",
+		"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_2/DAW/1415v-public/react/07-react-props/index.html",
+		"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_2/DAW/1415v-public/react/07-react-props/components/Searcher.jsx",
+		"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_2/DAW/1415v-public/react/07-react-props/components/Application.jsx",
+		"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_2/DAW/1415v-public/react/07-react-props/components/Searcher.css",
+		"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_2/DAW/1415v-public/react/06-timer-webpack-auto-reload/components/Application.jsx",
+		"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_2/DAW/1415v-public/react/06-timer-webpack-auto-reload/components/Searcher.jsx",
+		"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_2/DAW/1415v-public/react/06-timer-webpack-auto-reload/webpack.config.js",
+		"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_2/DAW/1415v-public/react/.____06-timer/webpack.config.js",
+		"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_2/DAW/1415v-public/react/06-timer-webpack-auto-reload/package.json",
+		"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_2/DAW/1415v-public/react/.____06-timer/components/Application.jsx",
+		"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_2/DAW/1415v-public/react/.____06-timer/components/Searcher.jsx",
+		"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_2/DAW/1415v-public/react/06-timer-webpack-auto-reload/index.html",
+		"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_2/DAW/1415v-public/react/06-timer/package.json",
+		"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_2/DAW/1415v-public/react/06-timer/components/Application.jsx",
+		"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_2/DAW/1415v-public/react/06-timer/webpack.config.js",
+		"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_2/DAW/1415v-public/react/06-timer/index.html",
+		"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_2/DAW/1415v-public/react/05-timercomponent-external-files/components/Application.jsx",
+		"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_2/DAW/1415v-public/react/06-timer/components/Searcher.jsx",
+		"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_2/DAW/1415v-public/react/06-timer/components/TimerComponent.jsx",
+		"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_2/DAW/1415v-public/react/05-timercomponent-external-files/index.html",
+		"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_2/DAW/1415v-public/react/05-timercomponent-external-files/components/TimerComponent.jsx",
+		"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_2/DAW/1415v-public/react/05-timercomponent-external-files/components/Searcher.jsx",
+		"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_2/DAW/1415v-public/README.md",
+		"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_2/DAW/1415v-public/react/05-timercomponent-external-files/package.json",
+		"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_2/DAW/1415v-public/react/05-timercomponent-external-files/Application.jsx",
+		"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_2/DAW/1415v-public/react/05-timercomponent-external-files/TimerComponent.jsx",
+		"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_2/DAW/1415v-public/react/05-timercomponent-external-files/build/TimerComponent.js",
+		"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_2/DAW/1415v-public/react/.___05-timer-with-state-external-files/build/TimerComponent.js",
+		"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_2/DAW/1415v-public/react/05-timer-with-state-external-files/build/Application.js",
+		"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_2/DAW/1415v-public/react/05-timer-with-state-external-files/index.html",
+		"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_2/DAW/1415v-public/react/05-timer-with-state-external-files/js/TimerComponent.jsx",
+		"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_2/DAW/1415v-public/react/05-timer-with-state-external-files/js/Application.jsx",
+		"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_2/DAW/1415v-public/react/05-timer-with-state-external-files/build/TimerComponent.js",
+		"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_2/DAW/1415v-public/react/04-timer-with-state/index.html",
+		"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_2/DAW/1415v-public/react/03-hellocomponent-jsx/index.html",
+		"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_2/DAW/1415v-public/react/01-helloworld/index.html",
+		"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_2/DAW/1415v-public/react/02-hellocomponent/index.html",
+		"/Users/cguedes/Documents/cguedes/Projects/react/skystore-react-flux/src/components/Login.jsx",
+		"/Users/cguedes/Documents/cguedes/Projects/react/skystore-react-flux/src/components/AuthenticatedApp.jsx",
+		"/Users/cguedes/Documents/cguedes/Projects/react/skystore-react-flux/src/services/NavigationService.js",
+		"/Users/cguedes/Documents/cguedes/Projects/react/skystore-react-flux-server/server.js",
+		"/Users/cguedes/Downloads/repository.wareztuga/addon.xml",
+		"/Users/cguedes/Documents/cguedes/Projects/react/skystore-react-flux/src/app.jsx",
+		"/Users/cguedes/Documents/cguedes/Projects/react/skystore-react-flux/src/services/AuthService.js",
+		"/Users/cguedes/Documents/cguedes/Projects/tv-wallboards/server/server.js",
+		"/Users/cguedes/Documents/cguedes/Projects/react/skystore-react-flux-server/navigation.json",
+		"/Users/cguedes/Documents/cguedes/Projects/react/skystore-react-flux-server/package.json",
+		"/Users/cguedes/Documents/cguedes/Projects/react/skystore-react-flux/src/components/Home.jsx",
+		"/Users/cguedes/Documents/cguedes/Projects/react/skystore-react-flux/build/build.js",
+		"/Users/cguedes/Documents/cguedes/Projects/react/skystore-react-flux/package.json",
+		"/Users/cguedes/Documents/cguedes/Projects/react/skystore-react-flux/index.html",
+		"/Users/cguedes/Documents/cguedes/Projects/react/react-browserify-spa-seed/index.html",
+		"/Users/cguedes/Documents/cguedes/Projects/auth0-flux/react-flux-jwt-authentication-sample/src/app.jsx",
+		"/Users/cguedes/Documents/cguedes/Projects/auth0-flux/react-flux-jwt-authentication-sample/Readme.md",
+		"/Users/cguedes/Documents/cguedes/Projects/react/react-browserify-spa-seed/metadata.json",
+		"/Users/cguedes/Documents/cguedes/Projects/auth0-flux/react-flux-jwt-authentication-sample/index.html",
+		"/Users/cguedes/Downloads/thoth (2).sql",
+		"/Users/cguedes/Documents/cguedes/Projects/tv-wallboards/client/Chrome Extension/popup.html",
+		"/Users/cguedes/Documents/cguedes/Projects/tv-wallboards/client/Chrome Extension/manifest.json",
+		"/Users/cguedes/Documents/cguedes/Projects/tv-wallboards/client/Chrome Extension/background.js",
+		"/Users/cguedes/Documents/cguedes/Projects/tv-wallboards/client/Chrome Extension/popup.js",
+		"/Users/cguedes/Documents/cguedes/Projects/tv-wallboards/client/Chrome Extension/options.html",
+		"/Users/cguedes/Documents/cguedes/Projects/tv-wallboards/server/views/alltvs.html",
+		"/Users/cguedes/Documents/cguedes/Projects/tv-wallboards/client/Chrome Extension/content_script.js",
+		"/Users/cguedes/Documents/cguedes/Projects/tv-wallboards/server/views/tv.html",
+		"/Users/cguedes/Documents/cguedes/Projects/tv-wallboards/server/views/tv-frame.html",
+		"/Users/cguedes/Documents/cguedes/Projects/tv-wallboards/server/wallboards.js",
+		"/Users/cguedes/Documents/cguedes/Projects/tv-wallboards/server/tvs.js",
+		"/Users/cguedes/Documents/cguedes/Projects/tv-wallboards/server/views/index.html",
+		"/Users/cguedes/Documents/cguedes/Projects/tv-wallboards/notes.md",
+		"/Users/cguedes/Documents/cguedes/Projects/tv-wallboards/server/package.json",
+		"/Users/cguedes/Documents/cguedes/Projects/tv-wallboards/readme.md",
+		"/Users/cguedes/Downloads/csharp-client/src/main/csharp/io/swagger/Api/UserApi.cs",
+		"/Users/cguedes/Downloads/csharp-client/src/main/csharp/io/swagger/client/ApiInvoker.cs",
+		"/Users/cguedes/Downloads/csharp-client/src/main/csharp/io/swagger/Model/Activity.cs",
+		"/Users/cguedes/Documents/cguedes/Projects/tv-wallboards/client/Chrome Extension/options.js",
+		"/Users/cguedes/Documents/cguedes/Projects/tv-wallboards/client/Chrome Extension/app.js",
+		"/Users/cguedes/Documents/cguedes/Projects/tv-wallboards/client/Chrome Extension/bootstrap.min.css",
+		"/Users/cguedes/Documents/cguedes/Projects/tv-wallboards/server/public/wallboard.client.js",
+		"/Users/cguedes/Documents/cguedes/Projects/tv-wallboards/client/Chrome Extension/Apple Icon SuperPack_128x128.png",
+		"/Users/cguedes/Documents/cguedes/Projects/tv-wallboards/client/Chrome Extension/socket.io.min.js",
+		"/Users/cguedes/Downloads/DeadSimpleScreeSharing-master/Chrome Extension/icon.png",
+		"/Users/cguedes/Downloads/DeadSimpleScreeSharing-master/Chrome Extension/popup.html",
+		"/Users/cguedes/Downloads/DeadSimpleScreeSharing-master/Chrome Extension/popup.js",
+		"/Users/cguedes/Documents/cguedes/Projects/tv-wallboards/client/browser/client.html",
+		"/Users/cguedes/Documents/cguedes/Projects/tv-wallboards/client/hapi-dash/servers/gui/views/login.html",
+		"/Users/cguedes/Documents/cguedes/Projects/tv-wallboards/server/views/tv.jsx",
+		"/Users/cguedes/Documents/cguedes/Projects/tv-wallboards/client/browser/main.js",
+		"/Users/cguedes/Documents/cguedes/Projects/tv-wallboards/server/views/client.jsx",
+		"/Users/cguedes/Documents/cguedes/Projects/tv-wallboards/client/client.html",
+		"/Users/cguedes/Documents/cguedes/Projects/react/react-0.13.1/examples/api-explorer/css/webapi-docs.css",
+		"/Users/cguedes/Documents/cguedes/Projects/react/react-0.13.1/examples/api-explorer/react-documentation-widget.js",
+		"/Users/cguedes/Documents/cguedes/Projects/react/react-0.13.1/examples/api-explorer/react-lateral-menu.js",
+		"/Users/cguedes/Documents/cguedes/Projects/react/react-0.13.1/examples/api-explorer/api-explorer.js",
+		"/Users/cguedes/Documents/cguedes/Projects/react/react-0.13.1/examples/api-explorer/js/webapi-docs-models.js",
+		"/Users/cguedes/Documents/cguedes/Projects/react/react-0.13.1/examples/api-explorer/js/webapi-docs-explorer.js",
+		"/Users/cguedes/Documents/cguedes/Projects/react/react-0.13.1/explorer/index.html",
+		"/Users/cguedes/Documents/cguedes/Projects/react/react-0.13.1/examples/api-explorer/index 2.html",
+		"/Users/cguedes/Documents/cguedes/Projects/react/react-0.13.1/examples/basic-commonjs/node_modules/react/lib/isNode.js"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/cguedes/Documents/cguedes/Projects/react/skystore-react-flux,-build/*.js",
+			"/Users/cguedes/Documents/cguedes/Projects/react/skystore-react-flux,-build\\*.js",
+			"/Users/cguedes/Documents/cguedes/Projects/react/skystore-react-flux,-node_modules,-build",
+			"/Users/cguedes/Documents/cguedes/Projects/react/skystore-react-flux",
+			"/Users/cguedes/Documents/cguedes/Projects/tv-wallboards",
+			"",
+			"/Users/cguedes/Documents/cguedes/Sky/Phase3A/ClientAPI",
+			"/Users/cguedes/Downloads/popcorn-app-0.4.0",
+			"/Users/cguedes/Documents/cguedes/ISEL/Docencia/1415_1/PI/1415i-public/nodejs/aula25/01-todonanet,-node_modules"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"PageNotFound",
+			"Application",
+			"RouteHandler",
+			"\" >",
+			"after",
+			"ListItem",
+			"wrapper={<a href=\"#\" />}",
+			"wrapper={<a href=\"#\" />",
+			"DAW",
+			"m title=",
+			" title=\"",
+			"List.Item",
+			"titleSub",
+			" {",
+			"},",
+			"require",
+			": function",
+			":\"\"",
+			":",
+			", ",
+			",",
+			": function",
+			"getTodoListsFromLocalStorage",
+			"todos[listName]",
+			"todos",
+			"div className=\"col-",
+			"Row",
+			"MenuItem",
+			"var ",
+			"id",
+			"class",
+			"_updateState",
+			"TodosWrapper",
+			"Glyphicon",
+			"actions",
+			"span",
+			"todos",
+			"Todos",
+			"MenuItem",
+			"navbarInstance",
+			"DropdownButton",
+			"NavItem",
+			"Nav",
+			"Navbar",
+			"Alert",
+			"BS",
+			"^\\s+",
+			"^\\s+String\\s+",
+			"^\\d+",
+			"^\\s+",
+			"^\\d+",
+			"                          ",
+			"                         ",
+			"                        ",
+			"^[^0-9]",
+			"^<",
+			"  String  ",
+			": function",
+			"styles",
+			"TimerComponent",
+			"type=\"text/jsx\"",
+			"src=\"",
+			"- ",
+			"-",
+			"Timeout",
+			"clearTimeout",
+			"tthis",
+			"this",
+			"TaimerComponent",
+			"TimerComponent",
+			"HelloComponent",
+			"Application",
+			"HelloWorld",
+			"604px",
+			"604",
+			".login",
+			"AuthService.login",
+			"0",
+			"student]",
+			"teacher]",
+			"teacher",
+			"captureOptions",
+			"captureAndSendTab",
+			"thereAreConnectedTvs",
+			"_idx",
+			"IMG_MIMETYPE",
+			"updateBadgeInfo",
+			"startScreenCapture",
+			"setBadgeText",
+			"sendOptionsUpdateToAllTabs",
+			"connect_to_tv",
+			"updateUI",
+			"updateUIupdateUI",
+			"isToUpdateUI",
+			"console.log",
+			"1000",
+			"sendMessage",
+			"tvs[idx]",
+			"tvs.",
+			"captureAndSendTab",
+			"updateui",
+			"connected",
+			"captureAndSendTab",
+			"query",
+			"col-sm-3",
+			"text-align:center",
+			"vine",
+			"social",
+			"/tv",
+			"tv/",
+			"random",
+			"circle",
+			"details",
+			"#",
+			"col-lg-3",
+			"col-lg-4",
+			"4",
+			"100%x100%",
+			"data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==",
+			"alt=\"Generic placeholder image\"",
+			"host:",
+			"server:",
+			"listener:",
+			"listener",
+			"4000",
+			"localhost",
+			"16",
+			", "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"  ",
+			",\\n"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "components/Application.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1449,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								835,
+								835
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 90.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 757,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								79,
+								79
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "react.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"page",
+				"components/PageNotFound.jsx"
+			],
+			[
+				"app",
+				"components/Application.jsx"
+			],
+			[
+				"pa",
+				"package.json"
+			],
+			[
+				"index",
+				"index.html"
+			],
+			[
+				"home",
+				"reapp-thoth/app/components/Home.jsx"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"todost",
+				"stores/TodosStore.js"
+			],
+			[
+				"todojsx",
+				"components/Todos.jsx"
+			],
+			[
+				"web",
+				"webpack.config.js"
+			],
+			[
+				"pac",
+				"package.json"
+			],
+			[
+				"todo",
+				"components/Todos.jsx"
+			],
+			[
+				"timerc",
+				"05-timercomponent-external-files/TimerComponent.jsx"
+			],
+			[
+				"timerjsx",
+				"05-timercomponent-external-files/TimerComponent.jsx"
+			],
+			[
+				"timerjs",
+				".___05-timer-with-state-external-files/build/TimerComponent.js"
+			],
+			[
+				"inde",
+				"03-hellocomponent-jsx/index.html"
+			],
+			[
+				"authservi",
+				"skystore-react-flux/src/services/AuthService.js"
+			],
+			[
+				"man",
+				"client/Chrome Extension/manifest.json"
+			],
+			[
+				"wall",
+				"tv-wallboards/server/wallboards.js"
+			],
+			[
+				"conte",
+				"tv-wallboards/client/Chrome Extension/content_script.js"
+			],
+			[
+				"serve",
+				"tv-wallboards/server/server.js"
+			],
+			[
+				"explmode",
+				"examples/api-explorer/js/webapi-docs-models.js"
+			],
+			[
+				"explo",
+				"examples/api-explorer/js/webapi-docs-explorer.js"
+			],
+			[
+				"webaex",
+				"examples/api-explorer/js/webapi-docs-explorer.js"
+			],
+			[
+				"viewmodel",
+				"examples/api-explorer/js/webapi-docs-viewmodel.js"
+			],
+			[
+				"api-exorer",
+				"examples/api-explorer/api-explorer.js"
+			],
+			[
+				"mazide",
+				"mazes/index.js"
+			],
+			[
+				"wainde",
+				"public/walker/index.html"
+			],
+			[
+				"ap",
+				"app.js"
+			],
+			[
+				"ini",
+				"G30-TF-Complaints/data/initdata.js"
+			],
+			[
+				"movingcamera",
+				"T2/1415i_CG_LI31D-LI51D_G15_T2_S15642/CGGL/src/cggl/camera/MovingCamera.java"
+			],
+			[
+				"trans",
+				"C04/T1/1415i_CG_LI31D-LI51D_G4_T1_S13342/src/utils/Transformations.java"
+			],
+			[
+				"linearf",
+				"C04/T1/1415i_CG_LI31D-LI51D_G4_T1_S13342/src/forms/LinearForm.java"
+			],
+			[
+				"mode",
+				"js/webapi-docs-models.js"
+			],
+			[
+				"codemi",
+				"js/codemirror-compressed.js"
+			],
+			[
+				"view",
+				"js/webapi-docs-viewmodel.js"
+			],
+			[
+				"sbd",
+				"css/sb-admin-2.css"
+			],
+			[
+				"docscss",
+				"css/webapi-docs-2.css"
+			],
+			[
+				"we",
+				"js/webapi-docs.js"
+			],
+			[
+				"swa",
+				"api/docs/swagger"
+			],
+			[
+				"expl",
+				"js/webapi-docs-explorer.js"
+			],
+			[
+				"we2b",
+				"css/webapi-docs-2-black.css"
+			],
+			[
+				"sb-a",
+				"css/sb-admin-2.css"
+			],
+			[
+				"we2",
+				"css/webapi-docs-2.css"
+			],
+			[
+				"beau",
+				"bower_components/js-beautify/js/lib/beautify.js"
+			],
+			[
+				"bea",
+				"bower_components/js-beautify/js/lib/beautify.js"
+			],
+			[
+				"jsbe",
+				"bower_components/js-beautify/js/bin/js-beautify.js"
+			],
+			[
+				"webcss",
+				"css/webapi-docs.css"
+			],
+			[
+				"wecss",
+				"css/webapi-docs.css"
+			],
+			[
+				"blacc",
+				"css/webapi-docs-black.css"
+			],
+			[
+				"",
+				"api/docs/user/user-authentication"
+			],
+			[
+				"auth",
+				"api/docs/user/user-authentication"
+			],
+			[
+				"wejs",
+				"js/webapi-docs.js"
+			],
+			[
+				"webdocss",
+				"css/webapi-docs.css"
+			],
+			[
+				"bla",
+				"css/webapi-docs-black.css"
+			],
+			[
+				"catal",
+				"api/docs/catalog/catalog-asset"
+			],
+			[
+				"user-de",
+				"api/docs/user/user-device"
+			],
+			[
+				"pan",
+				"panels-wells.html"
+			],
+			[
+				"conf",
+				"aula27/01-todonanet/config.json"
+			],
+			[
+				"modin",
+				"aula26/01-todonanet/model/index.js"
+			],
+			[
+				"list",
+				"aula26/01-todonanet/views/todos/list.ejs"
+			],
+			[
+				"modelinde",
+				"aula26/01-todonanet/model/index.js"
+			],
+			[
+				"routt",
+				"aula26/01-todonanet/routes/todos/index.js"
+			],
+			[
+				"create",
+				"01-todonanet/views/todos/create.ejs"
+			],
+			[
+				"server",
+				"01-todonanet/server.js"
+			],
+			[
+				"edi",
+				"01-todonanet/views/todos/edit.ejs"
+			],
+			[
+				"catalog",
+				"api-documentation-ui/sb-admin-2/api/docs/catalog/catalog-asset"
+			],
+			[
+				"modeinde",
+				"model/index.js"
+			],
+			[
+				"top",
+				"views/_layouts/top.ejs"
+			],
+			[
+				"to",
+				"views/_layouts/top.ejs"
+			],
+			[
+				"todosindex",
+				"routes/todos/index.js"
+			],
+			[
+				"ejs",
+				"node_modules/ejs/ejs.js"
+			],
+			[
+				"logininde",
+				"nodejs/aula24/02-body-parser/views/login/index.ejs"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 211.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
