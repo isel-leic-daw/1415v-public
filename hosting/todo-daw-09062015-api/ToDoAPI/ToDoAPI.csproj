@@ -15,7 +15,7 @@
     <AssemblyName>ToDoAPI</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
-    <UseIISExpress>false</UseIISExpress>
+    <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
@@ -144,6 +144,10 @@
     <Compile Include="Store\ToDoStore.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\SampleDatabase.mdf" />
+    <Content Include="App_Data\SampleDatabase_log.ldf">
+      <DependentUpon>SampleDatabase.mdf</DependentUpon>
+    </Content>
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -174,7 +178,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>49255</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://api.todos.daw.com</IISUrl>
+          <IISUrl>http://localhost:49255/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

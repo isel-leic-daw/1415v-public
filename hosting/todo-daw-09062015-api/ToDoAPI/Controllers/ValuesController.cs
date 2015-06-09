@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
@@ -18,7 +19,8 @@ namespace ToDoAPI.Controllers
         // GET api/values/5
         public string Get(int id)
         {
-            return "value";
+            var conStr = ConfigurationManager.ConnectionStrings["ThothDB"];
+            return conStr.ConnectionString;
         }
 
         // POST api/values
